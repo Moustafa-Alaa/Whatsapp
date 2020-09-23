@@ -8,7 +8,7 @@ var watson = require('watson-developer-cloud');
 // Twilio Credentials
 
 const accountSid = 'AC32cf0ad0005c9aac5d7b73f0e68a8c96';
-const authToken = '6182647c38974f07419f2e8883415f24';
+const authToken = 'ef76e1f89ffaff42a8fd33a32930edd3';
 const client = require('twilio')(accountSid, authToken);
 app.use(bodyParser.urlencoded({ entended: false }));
 var env= require('dotenv').config()
