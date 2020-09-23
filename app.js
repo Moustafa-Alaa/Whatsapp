@@ -16,9 +16,9 @@ var env= require('dotenv').config()
 // Watson Credentials
 
 var assistant = new watson.AssistantV1({
-  iam_apikey: '<APIkEY>',
+  iam_apikey: 'VafDvZVfCd5y2PSi_c7I0ZLkU8ibCjpP-NHPsq8fzFz0',
   version: '2018-09-20',
-  url: '<URL>'
+  url: 'https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/923666c3-3a31-4b74-9641-eda604b7f3c0'
 });
 var context1 = {};
 app.get('/test', function (req, res) {
