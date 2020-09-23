@@ -30,7 +30,7 @@ app.post('/api', function (req, res) {
 	var From = req.body.From;
 	console.log(From);
 	assistant.message({
-		workspace_id: '<Workspace_id>',
+		workspace_id: 'e6f05701-407d-4a9a-8acb-a717319a3dd9',
 		input: { 'text': req.body.Body },
 		context: context1
 	}, function (err, response) {
